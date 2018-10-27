@@ -1,0 +1,268 @@
+/* Entire page */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+	font-family: 'Hind', sans-serif;
+	color: #fff;
+	line-height: 34px;
+	font-size: 18px;
+	background-image: url("../images/subtle_orange_emboss.png");
+	
+}
+  a:hover { 
+		background: color #ee9977;;
+	}
+
+
+a:focus {
+	color: #30e739;
+	text-decoration: none;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section img {
+    float: left;
+    z-index: 1;
+    margin-right: 1.5em; 
+    margin-bottom: 1.5em; 
+  }
+  
+  h1,
+  h2,
+  h3,
+   p {
+    margin-bottom: 20px;
+    color: #ccc;
+    
+  }
+
+
+  
+  p:last-child {
+    Clear: right; 
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #e9782d;
+  }
+  
+  h2,
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    float: right;
+    position: relative;
+    Margin: 0 right; 
+    color: #777; 
+
+
+
+  }
+  
+  /* header */
+  
+  #masthead {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #e9782d;
+    z-index: 2;
+  }
+  
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: 'Hind', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+
+  #connect {
+    Float: left;
+    float: bottom;
+    position: absolute;
+    background-color: #fff;
+    width: 33%; 
+    height: 35px;
+    
+  }
+
+
+  
+  /* footer */
+  
+  .clearfix::after {
+    content: "footer";
+    clear: both;
+    display: table;
+}
+
+  #footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 20px;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+  }
+  
+  h3, h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #e9782d;
+  }
+  
+  /* main */
+  
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #e9782d;
+  }
+  
+  /* portfolio page */
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    
+  }
+
+  img:hover  {
+    transform: rotate(20deg)
+}
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  
+  /* contact page */
+  
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+    color: #7777;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #cccc;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+  

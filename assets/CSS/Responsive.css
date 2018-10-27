@@ -1,0 +1,282 @@
+/* Responsive */
+
+@media screen and (max-width: 980px) {
+	#logo {
+	  margin-left: 10%;
+	}
+  
+	nav {
+	  margin-right: 10%;
+	}
+  
+	.main-section {
+	  max-width: 100%;
+	  margin-left: 0%;
+	}
+  
+  
+	.work {
+	  width: 100%;
+	}
+  
+
+  }
+  
+  /* 768px */
+
+  @media screen and (max-width: 768px) {
+	#logo {
+	  margin-left: 2%;
+	}
+  
+	#masthead {
+	  width: 101%;
+	  margin: -2% -1.5% 0%;
+	}
+  
+	nav {
+	  margin-top: 4%;
+	  margin-bottom: 2%;
+	  margin-right: 2%;
+	}
+  
+	.main-section {
+	  max-width: 100%;
+	  margin-left: 0%;
+	}
+  
+  
+	.work {
+	  width: 100%;
+	}
+  }
+  
+  /* 640px */
+
+  @media screen and (max-width: 640px) {
+	header {
+	  position: static;
+	}
+  
+	#logo {
+	  width: 106%;
+	  margin-left: -3%;
+	}
+  
+	#masthead {
+	  width: 101%;
+	  height: 28%;
+	  margin: -2% -1.5% 0%;
+	}
+  
+	nav {
+	  margin-top: 2%;
+	  margin-bottom: 2%;
+	  margin-right: 30%;
+	}
+  
+	.navbar {
+	  margin-top: 0%;
+	}
+  
+	.main-section {
+	  margin-top: 4%;
+	}
+  
+  
+	.work {
+	  width: 100%;
+	}
+  
+	
+  }
+
+
+/* @media only screen and (max-width: 980px) {
+
+	body {
+		width: 85%;
+		height: 600px;
+		margin: auto;
+	}
+
+	.container {
+		width: auto;
+		height: auto;
+
+	}
+
+	a:hover { 
+		background: color #ee9977;;
+	}
+
+	#logo {
+		height: auto;
+	}
+
+	nav {
+		width: 90%;
+		height: 100%;
+		margin: 15px 5% 20px 5%;
+		
+	}
+
+	#main-container img {
+		margin-left: 20px;
+		margin-right: 20px;
+		height: 75%; 
+
+	}
+
+    .main-section {
+		width: 90%;
+		height: 250px;
+		margin: 15px 5% 20px 5%;
+	}
+
+	.work img {
+		width: 20%;
+		height: 100px;
+
+	}
+
+	
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    body {
+		width: 85%;
+		height: 600px;
+		margin: auto;
+	}
+
+    nav {
+		padding-right: 10px;
+		padding-left: 40px; 
+		position: relative;
+		margin: 0px 40px 0px 0px;; 
+		width: 100%; 
+	}
+	
+	#logo {
+		padding-left: 20px; 
+		margin: 0px 40px 0px 0px;
+		position: fixed;
+		
+
+	}
+
+    #masthead {
+		margin: 35px 0px 40px 5px;
+		padding: 35px 0px 40px 5px;
+		height: 65%; 
+
+
+    }
+
+    #main-container img {
+    	width: 45%;
+		margin: 15px 15px 0px 15px;
+    }
+
+    p {
+    	height: 700px;
+    	margin: 35px;
+    }
+
+    h1 {
+		width: 45%;
+		height: 180px;
+		margin: 10px 0px 10px 3.2%;
+		float: left;
+		position: relative;
+	}
+	.main-section {
+		margin: 25px;
+		height: relative; 
+		padding-top: 55px;
+	}
+
+    .connectMe {
+	    margin: 35px;
+	    padding: 20px 35px 20px 35px;
+	    text-align: left;
+	}
+
+	#connect img {
+		height: 51px;
+	}
+
+	#contact {
+		margin: 35px;
+	}
+}
+
+/* For mobile phones: */
+
+/* @media only screen and (max-width: 640px) {
+	
+	
+    body {
+		height: 1200px;
+		width: 100%; 
+	}
+	
+	#logo {
+		width: 100%;
+		margin: 0px 40px 0px 40px;
+		padding-right: 25px;
+
+	}
+
+    h1 {
+		width: 100%;
+		height: 40%; 
+		margin: 0;
+		line-height: 0px;
+	}
+
+	nav {
+		text-align: center;
+		position: relative;
+		background: #fff;
+		margin-bottom: 20px;
+		padding: 0px 0px 10px 35px; 
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.main-section {
+		margin: 25px;
+		height: relative; 
+		padding-top: 55px;
+	}
+
+	#main-container img {
+		width: 90%;
+		margin: 15px 5% 15px 5%;
+	}
+
+	#connect {
+		margin: 25px;
+		text-align: center;
+	}
+
+
+    .container {
+    	margin: 25px;
+    }
+
+    .work img {
+		width: 90%;
+		height: 200px;
+		margin: 15px 5% 20px 5%;
+	}
+
+    #contact {
+    	margin: 25px;
+    }
+} */ 
